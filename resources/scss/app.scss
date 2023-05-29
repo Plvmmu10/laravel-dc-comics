@@ -18,6 +18,10 @@ header {
     height: 80px;
 }
 
+body {
+    background-color: #212529;
+}
+
 .myContainer {
     width: 75%;
     height: 100%;
@@ -61,4 +65,36 @@ header {
             }
         }
     }
+}
+
+
+.card {
+    height: 500px;
+    background-color: transparent;
+    color: white;
+    padding: 1rem;
+}
+
+.card:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.61);
+    transition: .7s;
+}
+
+.card-header {
+    width: 100%;
+    height: 350px;
+    background: transparent;
+
+    // img {
+    //     width: 100%;
+    //     height: 100%;
+    //     object-fit: fill;
+    // }
+}
+
+.myRow {
+    height: 600px;
+    width: 100%;
+    display: flex;
 }
