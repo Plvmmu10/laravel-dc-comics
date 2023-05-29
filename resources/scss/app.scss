@@ -1,0 +1,64 @@
+@use './partials/variables' as *;
+
+
+$fa-font-path: "../fonts/webfonts" !default;
+
+
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+@import '~bootstrap/scss/bootstrap';
+
+// HEADER STYLE
+
+header {
+    background-color: #0282f9;
+    height: 80px;
+}
+
+.myContainer {
+    width: 75%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+    .navbar {
+        height: 100%;
+        padding: 0;
+
+
+        .mainList {
+            height: 100%;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            list-style-type: none;
+
+            li {
+                height: 100%;
+                padding: 0;
+                margin: 0 .7rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            a {
+                height: 100%;
+                text-decoration: none;
+                color: white;
+
+                &:hover {
+                    border-bottom: 5px solid #0282f9;
+                }
+            }
+        }
+    }
+}
