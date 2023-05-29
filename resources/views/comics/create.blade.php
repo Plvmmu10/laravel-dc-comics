@@ -5,6 +5,7 @@
         <div class="w-50 text-white mt-5">
             <h1>Crea il tuo personalissimo fumetto!</h1>
             <form action="{{ route('comics.store') }}" method="POST">
+                @csrf
                 {{-- Title --}}
                 <div class="mb-3">
                     <label for="title" class="form-label">Titolo</label>
