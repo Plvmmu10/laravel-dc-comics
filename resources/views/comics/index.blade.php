@@ -20,6 +20,8 @@
                             <div class="position-absolute bottom-0">
                                 <button class="btn btn-primary"><a href="{{ route('comics.show', $comic->id) }}"
                                         class="text-decoration-none text-white">Info</a></button>
+                                <button class="btn btn-warning"><a href="{{ route('comics.edit', $comic->id) }}"
+                                        class="text-decoration-none text-white">Modifica</a></button>
                             </div>
                         </div>
                     </div>
