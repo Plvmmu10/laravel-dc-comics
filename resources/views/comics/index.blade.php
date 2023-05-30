@@ -14,11 +14,7 @@
     @endif
 
 
-    <div class="d-flex justify-content-center p-5">
-        <button class="btn btn-success"><a href="{{ route('comics.create') }}" class="text-decoration-none text-white">Crea
-                il tuo
-                fumetto!</a></button>
-    </div>
+
 
     <div class="container d-flex justify-content-center">
         @include('partials.main')
