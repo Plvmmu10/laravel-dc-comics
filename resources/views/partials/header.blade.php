@@ -1,8 +1,8 @@
-<div class="myContainer text-black">
+<div class="myContainer text-black container">
     <!-- Logo -->
     <div class="logo-container">
         <a href="{{ route('home') }}">
-            <img src="img/dc-logo.png" alt="logoDCsmall">
+            <img src="/img/dc-logo.png" alt="logoDCsmall">
         </a>
     </div>
 
