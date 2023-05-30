@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+    Crea il tuo fumetto
+@endsection
+
 @section('content')
     <div class="container d-flex justify-content-center">
         <div class="w-50 text-white mt-5">
