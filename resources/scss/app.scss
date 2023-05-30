@@ -15,7 +15,7 @@ $fa-font-path: "../fonts/webfonts" !default;
 
 header {
     background-color: white;
-    height: 80px;
+    height: 120px;
 }
 
 body {
@@ -23,7 +23,6 @@ body {
 }
 
 .myContainer {
-    width: 75%;
     height: 100%;
     padding: 1rem;
     display: flex;
@@ -55,7 +54,6 @@ body {
             }
 
             a {
-                height: 100%;
                 display: flex;
                 align-self: center;
                 text-decoration: none;
@@ -71,7 +69,7 @@ body {
 
 
 .card {
-    height: 500px;
+    height: 550px;
     background-color: transparent;
     color: white;
     padding: 1rem;
