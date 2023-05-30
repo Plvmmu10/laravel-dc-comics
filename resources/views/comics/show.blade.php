@@ -1,7 +1,17 @@
 @extends('layouts.app')
 
+@section('title')
+    {{ $comic->title }}
+@endsection
+
 @section('content')
+    @if (session()->has('message'))
+        <div class="bg-success p-3 m-2 text-white text-center text-uppercase">
+            {{ session()->get('message') }}
+        </div>
+    @endif
     <div class="container">
+
         <div class="myRow mt-5">
             <div class="col-6 p-4">
                 <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" class="w-100 h-100">
