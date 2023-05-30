@@ -7,7 +7,7 @@
 @section('content')
     <div class="container d-flex justify-content-center">
         <div class="w-50 text-white mt-5">
-            <h1>Crea il tuo personalissimo fumetto!</h1>
+            <h1>Modifica {{ $comic->title }}</h1>
             <form action="{{ route('comics.update', $comic->id) }}" method="POST">
                 @csrf
                 @method('PUT')
@@ -21,8 +21,7 @@
                 {{-- Description --}}
                 <div class="mb-3">
                     <label for="description" class="form-label">Descrizione</label>
-                    <input type="textarea" class="form-control" id="description" name="description"
-                        value="{{ $comic->description }}">
+                    <textarea class="form-control" id="description" name="description">  {{ $comic->description }}</textarea>
                     <div id="description" class="form-text">Inserisci la descrizione</div>
                 </div>
 

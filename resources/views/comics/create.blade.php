@@ -20,7 +20,7 @@
                 {{-- Description --}}
                 <div class="mb-3">
                     <label for="description" class="form-label">Descrizione</label>
-                    <input type="textarea" class="form-control" id="description" name="description">
+                    <textarea type="textarea" class="form-control" id="description" name="description"></textarea>
                     <div id="description" class="form-text">Inserisci la descrizione</div>
                 </div>
 
