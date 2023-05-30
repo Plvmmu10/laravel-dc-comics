@@ -1,7 +1,9 @@
 <div class="myContainer text-black">
     <!-- Logo -->
     <div class="logo-container">
-        <img src="img/dc-logo.png" alt="logoDCsmall">
+        <a href="{{ route('home') }}">
+            <img src="img/dc-logo.png" alt="logoDCsmall">
+        </a>
     </div>
 
     <!-- Navbar -->
