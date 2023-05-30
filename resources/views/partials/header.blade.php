@@ -9,7 +9,7 @@
 
         <ul class="mainList">
             <li class="text-uppercase fw-bold">
-                <a href="#" class="text-decoration-none">HOME</a>
+                <a href="{{ route('home') }}" class="text-decoration-none">HOME</a>
             </li>
         </ul>
 
