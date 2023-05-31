@@ -26,7 +26,7 @@ class StoreComicRequest extends FormRequest
         return [
             'title' => 'required',
             'description' => 'required|max:500',
-            'image' => 'required',
+            'thumb' => 'required',
             'price' => 'required',
             'series' => 'required',
             'type' => 'required',
@@ -40,6 +40,7 @@ class StoreComicRequest extends FormRequest
             'title.required' => "E' richiesto un titolo",
             'description.required' => "E' richiesto una descrizione",
             'description.max' => "La descrizione non può superare i 500 caratteri",
+            'thumb.required' => "E' richiesta un'immagine",
             'price.required' => "E' richiesto un prezzo",
             'series.required' => "E' richiesta una serie",
             'type.required' => "E' richiesto un tipo",
